@@ -1,6 +1,6 @@
-import logo from '../assets/logo.png';
+import logos from '../logoimage.png';
 
-import {styled} from styled-components;
+import {styled} from 'styled-components';
 
 export default function Header() {
   const StyledHeader = styled.header`
@@ -47,7 +47,7 @@ export default function Header() {
   `;
   return (
     <StyledHeader>
-      <img src={logo} alt="A canvas" />
+      <img src={logos} alt="A canvas" />
       <h1>ReactArt</h1>
       <p>A community of artists and art-lovers.</p>
     </StyledHeader>
